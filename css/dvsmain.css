@@ -1,0 +1,895 @@
+@import url(http://fonts.googleapis.com/css?family=Montaga);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,600,400);
+
+* {
+    margin: 0;
+}
+
+html {
+    margin:0;
+    padding:0;
+    /* desktop only! overflow-y: scroll*/
+}
+
+body {
+    margin:0;
+    padding:0;
+    /*font: normal 16px 'Montaga','Times New Roman',serif;*/
+    font: normal 16px 'Open Sans','Montaga','Times New Roman',serif;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+
+/*header:after {*/
+    /*background: -moz-linear-gradient(center top , rgba(213, 215, 215, 0.80), rgba(245, 247, 247, 0.80)) repeat scroll 0 0 transparent;*/
+    /*border-bottom: 1px solid #ced0d0;*/
+    /*border-top-left-radius: 1px;*/
+    /*border-top-right-radius: 1px;*/
+    /*content: "";*/
+    /*height: 2px;*/
+    /*left: 0;*/
+    /*position: absolute;*/
+    /*right: 0;*/
+    /*z-index: 2;*/
+    /*margin-bottom: 0.6em;*/
+/*}*/
+
+
+header {
+    padding-top: 0.6em;
+    margin-bottom: 0.6em;
+    background-color: rgb(239, 247, 255);
+    /*background-color: #F5F7F7;*/
+    border-bottom: 1px solid #EAEBEB;
+    border-top: 1px solid #EAEBEB;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -61px;
+}
+
+/*#wrap:after {*/
+    /*content: "";*/
+    /*display: block;*/
+    /*height: 61px;*/
+/*}*/
+
+/* Set the fixed height of the footer here */
+#push {
+    height: 61px;
+}
+
+
+#footer {
+    /*background: #d7d7d7 url(../images/dvslogo.png) no-repeat 95% 50%;*/
+    background: #d7d7d7;
+    border-top: #868686 1px solid;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: -61px; /* negative value of footer height */
+    clear:both;
+    -moz-box-shadow:    inset 0 2px 10px #A0A0A0;
+    -webkit-box-shadow: inset 0 2px 10px #A0A0A0;
+    box-shadow:         inset 0 2px 10px #A0A0A0;
+    height: 61px;
+}
+
+
+h1 {
+    text-shadow: 2px 2px 0 #fff;
+    border-bottom: 1px dotted #D7D5D7;
+    color: #676761;
+    /*box-shadow: 0 1px 0 #FFFFFF inset;*/
+}
+
+h2 {
+    text-shadow: 1px 1px 0 #D7D5D7;
+    color: #258ECB;
+    margin:0;
+}
+
+h1, h2 {
+    font-size: 24px;
+}
+
+h1,h2,h3,h4 {
+    font-family: inherit;
+    margin:0;
+    padding:0;
+    white-space: nowrap;
+}
+
+.table > thead  {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    background-color: #c2dcf9;
+}
+
+.table-condensed > thead > tr > th {
+    border-bottom: 2px solid #9FAFBB;
+}
+
+tr.winner {
+    background-color: rgb(213, 255, 202);
+}
+
+#language-block{
+
+}
+
+#loader {
+    width: 200px;
+    height:200px;
+    background-color: #d4d4d4;
+    color: #222;
+}
+
+#logo {
+    padding-bottom: 0.2em;
+    padding-left: 0.6em;
+    text-align: left;
+}
+
+#logo img {
+    max-height: 120px;
+    max-width: 350px;
+    margin: 4px 0;
+}
+
+#build {
+    padding-top: 4ex;
+    font-size: 9px;
+    color: #939393;
+    text-align: left;
+}
+
+.progress {
+    margin: 2px 0 0 0;
+    height: 2px;
+    background-color: #EEE;
+    box-shadow: 1px 1px 1px #AAA;
+}
+
+.progress-bar {
+    height: 2px;
+}
+
+.votefor {
+
+}
+
+.th-text-right {
+    text-align: right;
+}
+
+.partyButton {
+    margin: 0 0 1ex 2ex;
+    /*background-color: #b4b4b4;*/
+    /*border-color: #b4b4b4;*/
+    /*text-shadow: 1px 1px 0 #999;*/
+}
+
+.partyBlock {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
+    float:left;
+    background: #eeede8;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    width: 95%;
+    box-shadow: 2px 2px 3px #888;
+    margin: 0.5ex 0;
+}
+
+.partyBlock table {
+    width: 100%;
+}
+
+.partyBlock table td {
+    padding: 0.2ex 0.4ex;
+}
+
+.contest-back {
+    text-align: center;
+    background-color: #c2dcf9;
+    color: #000;
+    font-size: 18px;
+    border-top: 1px solid #4185C2;
+    border-bottom: 5px solid #4185C2;
+    border-left: 1px solid #4185C2;
+    border-right: 1px solid #4185C2;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 2px 5px #b8c1ff;
+    padding-right: 0.4em;
+    min-height: 30px;
+    margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.wrapword{
+    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    white-space: pre-wrap;       /* css-3 */
+    word-wrap: normal;       /* Internet Explorer 5.5+ */
+    word-break: normal;
+    white-space: normal;
+}
+
+/* Area Navigation List */
+
+.areaListGroup {
+    margin-bottom: 6px;
+}
+
+.areaListGroup a {
+    color: #111;
+    text-decoration: none;
+    display: block;
+}
+
+.areaListGroup li.bounce {
+    background-color: #258ECB !important;
+}
+
+.areaListGroup li.bounce > a {
+    color: #fff;
+}
+
+#areas .nav-pills>li.active>a {
+    background-color: #258ECB;
+}
+
+#menu_control {
+    padding-bottom: 3.5em;
+}
+
+#menu_control .btn {
+    /*width: 100px;*/
+}
+
+#menu_control .active {
+    background-color: #c63841;
+    border-color: #58150f;
+    box-shadow: inset 3px 5px 5px rgba(0,0,0,0.18);
+    text-shadow: 1px 1px 3px #110F0F;
+    color: #fff;
+}
+
+#menu_control .active:hover {
+    text-shadow: none;
+    color: #fff;
+}
+
+
+#areas .nav-pills>li.active-selected>a {
+    background-color: #852730;
+    color: #fff;
+}
+
+#areas .nav-pills {
+    margin-bottom: 6px;
+}
+
+#areas .nav>li>a {
+    padding: 5px 15px;
+}
+
+#areas .nav>li.titles {
+    color: #000000;
+    padding-top: 0.7ex;
+    padding-left: 1.2ex;
+}
+
+.areaListGroup li {
+    background-color: #fafafa;
+}
+
+.areaListGroup li:hover {
+    background-color: #6BA539;
+}
+
+.subareaListGroup li {
+    /*background-color: #fafafa;*/
+}
+ul.subareaListGroup li {
+    background-color: #777;
+}
+
+ul.subareaListGroup li:hover {
+    background-color: #6BA539;
+}
+
+ul.subareaListGroup li a {
+    color: #FFF;
+}
+
+ul.subareaListGroup {
+    padding-top: 0.5em;
+    margin-bottom: 7px;
+}
+
+/* Contest Navigation List  */
+.contestListGroup a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+}
+
+.contestListGroup li {
+    background-color: #777;
+    /*background-color: #64A9E6;*/
+    /*background-color: #5EA0E7;*/
+}
+
+.contestListGroup li:hover {
+    background-color: #1c3754;
+}
+
+.contestSelected {
+    background-color: #258ECB !important;
+}
+
+#contestListTitle {
+    padding-left: 12px;
+    color: #0066a6;
+    margin-top: -1ex;
+    padding-bottom: 0.5ex;
+}
+
+
+.singleContestHeader {
+    padding: 0.8ex;
+    text-align: center;
+    background-color: #c2dcf9;
+    color: #000;
+    font-size: 18px;
+	font-weight: 600;
+    border: 1px solid #4185C2;
+    border-bottom-width: 5px;
+    box-shadow: 0 2px 5px #b8c1ff;
+}
+
+/* Override bootstrap css*/
+
+.list-group-item {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    display: block;
+    margin-bottom: -1px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+li.list-group-item > a > span {
+    text-shadow: 1px 1px 5px #AAA;
+}
+
+/*table.fixed { table-layout:fixed; }*/
+/*table.fixed td { overflow: hidden; }*/
+
+#contests .btn-block:hover,
+#contests .btn-block:focus {
+    color: #b94a48;
+}
+
+#contests .btn-info:hover,
+#contests .btn-info:focus {
+    color: #111;
+}
+
+.btn-toolbar {}
+
+.btn:hover, .btn:focus {
+    text-decoration: none;
+}
+
+#atype-list { margin-top: 10px; }
+
+#headerrow { text-align:center; }
+
+#sel-atype-label { display:block; }
+.visible-xs #sel-atype-label { padding:6px 8px; line-height:1.428571429; display:inline-block; }
+#loop-label {padding-left: 2px; }
+
+.sublevel-open {}
+
+.contest-table {
+    padding-top: 7px;
+}
+
+#electionData{
+
+}
+
+#selectedAreaTitle {
+    padding-top: 2ex;
+    text-align: left;
+    padding-bottom: 0.5ex;
+}
+
+#selectedAreaTitle h3 {
+    white-space: normal;
+    font-size: 20px;
+}
+#unnoficialTitle {
+    color: #a5a5a5;
+    font-weight: normal;
+    font-size: 18px;
+}
+#electionTitle {
+    padding-top: 3px;
+}
+
+#electionTitle h2{
+    white-space: normal;
+}
+
+.moveReportDown {
+    margin-top: 0.3em;
+    padding-left: 0;
+}
+
+
+#areaStatistics .table {
+    margin-bottom: 1ex;
+    background-color: ghostwhite;
+}
+
+#areaStatistics tbody {
+    text-shadow: 2px 2px 3px #CACACA;
+	font-size: 13px;
+}
+
+#eligibleVotersTitle {
+    padding-top: 0.5ex;
+    border-top: 1px solid #258ECB;
+    color: #5d5d5d;
+    font-size: 14px;
+}
+
+#eligibleVotersGlobalTitle {
+    padding-top: 0.5ex;
+    color: #000000;
+    font-size: 14px;
+}
+
+#selectedAreaTypeTitle {
+    color: #0067a6;
+}
+
+.endorsedVotesTitle {
+    padding-left: 0.2em;
+}
+
+.languageSelection {
+    /*background: #E4E4E4 url('../images/shadowblock.png') repeat-x center 125%;*/
+    height: 34px;
+    margin-top: -15px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #AAA;
+    border-left: solid 1px #d5d5d5;
+    border-right: solid 1px #d5d5d5;
+    border-bottom: 3px solid #66615D;
+    box-shadow: 0 2px 5px #B8B8B9;
+}
+
+.languageSelection a {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.languageSelection .selectedLanguage {
+    color: #111;
+    font-weight: bold;
+}
+
+.statsLabel {
+    width: 60%;
+}
+
+.nohand {
+    cursor: default;
+}
+
+.table-responsive {
+    white-space: nowrap;
+}
+
+h1 {
+    white-space: normal;
+}
+
+#areaReport {
+    padding-right: 0 !important;
+}
+
+#menu_tab {
+    width: 5px;
+    height: 100%;
+    float: right;
+}
+
+#menu_tab a{
+    margin: -61px 0 0 -11px;
+    border-bottom: none;
+}
+
+.areaType_nav {
+    height: 100%;
+}
+
+
+#updated {
+    font-size: 2ex;
+    font-weight: bold;
+    padding: 0.7ex;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #111;
+    border: 1px dotted #b8b8b8;
+    margin-bottom: 1ex;
+}
+
+/* RELOADING BAR */
+
+#reloadTimeBar {
+    margin-top: 0.8em;
+}
+
+.reloadBar {
+    height: 2px;
+    width: 0;
+}
+
+.counter {
+    font-size: xx-small;
+    height: 1em;
+    text-align: left;
+    margin-bottom: 0.1em;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+
+    #footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    @-ms-viewport{
+    width:700px;
+    }
+}
+
+/* Stycky footer styles: end ---------------------
+-------------------------------------------------- */
+@media (min-width:320px){
+    h1, h2 {
+        font-size: 16px;
+        word-wrap: normal;
+    }
+
+    .container {
+        width: 99%;
+    }
+
+    #logo {
+        padding-top: 0em ;
+        padding-bottom: 0.2em ;
+        text-align: left;
+    }
+
+    #logo img {
+        max-width: 80px;
+        margin: 0 auto;
+    }
+
+    #electionTitle {
+        padding-top: 0.2em ;
+        padding-bottom: 0.2em ;
+    }
+
+    #electionTitle h2 {
+        font-size: 16px;
+    }
+
+    #unofficialTitle {
+        font-size: 12px;
+    }
+
+    #eligibleVotersTitle {
+        padding-top: 0.1em;
+        font-size: 14px;
+    }
+
+    #eligibleVotersGlobalTitle {
+        font-size: 14px;
+    }
+
+    #selectedAreaTitle {
+        padding-top: 0.2em;
+        padding-bottom: 0.1em;
+    }
+
+    #selectedAreaTitle h3 {
+        font-size: 14px;
+    }
+
+    #reloadTimeBar {
+        margin-top: 0.4em;
+        margin-bottom: 0.8em;
+    }
+
+    #loopButton {
+        border-radius: 0;
+        min-height: 40px;
+        padding-top: 0.65em;
+        border: 1px solid #0B448D;
+    }
+
+    .btn-stats {
+        display: block;
+        margin-top: 3.5em;
+    }
+
+    .btnBackToAreaList {
+        margin: 0.5em 0;
+        display: none;
+        border-radius: 0;
+        min-height: 10px;
+        padding-top: 0.65em;
+        border: 1px solid #0B448D;
+    }
+
+    .btnBackToAreaList span:first-child {
+        padding-left: 1em;
+    }
+
+    .btnBackToAreaList.btn:hover {
+        color: #fff;
+    }
+
+    #buttonBackTitle {
+        padding-right: 2em;
+    }
+
+    .areaListGroup {
+      margin-top: 1.2em;
+    }
+
+    .contestResult {
+        font-size: 16px;
+		font-weight: 600;
+    }
+
+    #areas {
+        font-size: 14px;
+    }
+
+    #areaStatistics {
+        font-size: 12px;
+    }
+
+    #disabled.badge, #incumbent.badge, #acclaimed.badge {
+        background-color: #4185c2;
+        font-weight: normal;
+    }
+
+}
+
+@media (min-width:480px){
+    h1, h2 {
+        font-size: 18px;
+        word-wrap: normal;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    /*@-ms-viewport{*/
+        /*width:640px;*/
+    /*}*/
+
+
+    .container {
+        width: 95%;
+    }
+
+
+    #logo img {
+        max-height: 120px;
+        max-width: 200px;
+        margin: 4px 0;
+    }
+
+    #electionTitles {
+        padding-left: 1.5em;
+    }
+
+    #electionTitle h2 {
+        font-size: 18px;
+    }
+
+    #unofficialTitle {
+        font-size: 18px;
+    }
+
+    #selectedAreaTitle {
+        padding-top: 2ex;
+        text-align: left;
+        padding-bottom: 0.5ex;
+    }
+
+    #selectedAreaTitle h3 {
+        font-size: 16px;
+    }
+    #eligibleVotersTitle {
+        font-size: 16px;
+    }
+
+    .areaListGroup {
+        font-size: 18px;
+    }
+
+    .contest-back {
+        font-size: 18px;
+		font-weight: 600;
+    }
+    .singleContestHeader  {
+        font-size: 18px;
+		font-weight: 600;
+    }
+
+    #areatype_control {
+        padding-bottom: 1ex;
+    }
+
+    .btn-stats {
+        margin-top: 1em;
+    }
+
+    #pinnedContest.col-md-6 {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    #contests.col-md-6 {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+}
+@media (min-width: 992px) {
+
+    /*@-ms-viewport{*/
+        /*width:768px;*/
+    /*}*/
+
+    .container {
+        width: 95%;
+    }
+
+    #logo img {
+        max-height: 110px;
+        max-width: 200px;
+        margin: 4px 0;
+    }
+
+    #electionTitle h2 {
+        font-size: 20px;
+		margin: 0px 0;
+    }
+
+    #unofficialTitle {
+        font-size: 11px;
+    }
+
+    #selectedAreaTitle {
+		font-size: 20px;
+        padding-top: 2ex;
+        text-align: left;
+        padding-bottom: 0.5ex;
+    }
+
+    #selectedAreaTitle h3 {
+        font-size: 16px;
+    }
+    #eligibleVotersTitle {
+        font-size: 12px;
+    }
+
+    .contest-back {
+        font-size: 20px;
+		font-weight: 600;
+    }
+    .singleContestHeader  {
+        font-size: 16px;
+		font-weight: 600;
+    }
+
+    .areaListGroup li.bounce-sublevel > a {
+        color: #fff;
+    }
+
+    .btn-stats {
+        display: none;
+    }
+
+    .contestResult {
+        font-size: 14px;
+		font-weight: 600;
+    }
+
+    #areas {
+        font-size: 14px;
+    }
+
+    #areaStatistics {
+        font-size: 13px;
+    }
+
+    .areaListGroup {
+        font-size: 12px;
+        margin-top: 0.5em;
+    }
+
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+
+    #logo {
+        padding-top: 0.0em ;
+        padding-bottom: 0.2em ;
+        text-align: center;
+    }
+
+    #logo img {
+        max-height: 120px;
+        max-width: 350px;
+        margin: 4px 0;
+    }
+
+    #electionTitles {
+        padding-top: 0.1em ;
+        padding-bottom: 0.2em ;
+    }
+
+    #eligibleVotersTitle {
+        padding-top: 0.1em;
+    }
+
+    #selectedAreaTitle {
+        padding-top: 0.8em;
+        text-align: left;
+        padding-bottom: 0.5ex;
+    }
+
+    #selectedAreaTitle h3 {
+        white-space: normal;
+        font-size: 13px;
+    }
+
+}

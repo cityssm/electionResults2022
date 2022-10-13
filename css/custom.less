@@ -1,0 +1,97 @@
+// -------------------------------------
+// LESS template for color customization
+// -------------------------------------
+@mainTitleTextColor: #258ecb;
+@headerBackgroundColor: rgb(239, 247, 255);
+
+@languageMenuBackgroundColor: #E4E4E4;
+@languageMenuLinkHoverTextColor: #111;
+
+@areaStatisticsBackgroundColor: #fbfbfb;
+
+@contentWrapBackgroundColor: #FFF;
+
+@areaListGroupItemBackgroundColor: #fafafa;
+@areaListGroupItemBounceBackgroundColor: rgb(221, 221, 221);
+@areaListGroupItemHoverBackgroundColor: #ececec;
+
+@subAreaListGroupItemBackgroundColor: #777;
+@subAreaListGroupItemHoverBackgroundColor: #1c3754;
+
+@contestHoverTextColor: #b94a48;
+@btnHoverTextColor: #333;
+
+@contestBackBackgroundColor: #FFF;
+@contestBackTextColor: #111;
+@contestBackTxtShadowColor: #AAA;
+
+@contestWinnerBackgroundColor: rgb(213, 255, 202);
+
+@menuTabBackgroundColor: #258ecd;
+
+@updatedBackgroundColor: #000000;
+@updatedTextColor: #111;
+@updatedBorderColor: #b8b8b8;
+// ---
+
+/* THE HEADER  ELEMENTS */
+h1, h2 { color:@mainTitleTextColor; }
+
+header { background-color:@headerBackgroundColor; }
+
+.languageSelection { background-color:@languageMenuBackgroundColor; }
+.languageSelection a { color:@mainTitleTextColor; }
+.languageSelection a:hover, a:active { color:@languageMenuLinkHoverTextColor; }
+
+#eligibleVotersTitle { border-top-color:@mainTitleTextColor; }
+
+#areaStatistics tr { background-color:@areaStatisticsBackgroundColor; }
+
+/* END OF THE HEADER  ELEMENTS */
+/*/////////////////////////////////////////*/
+/* MAIN BLOCK ELEMENTS */
+
+#wrap { background-color:@contentWrapBackgroundColor; }
+
+/* Area list */
+.areaListGroup li { background-color:@areaListGroupItemBackgroundColor; }
+.areaListGroup li:hover { background-color:@areaListGroupItemHoverBackgroundColor; }
+.areaListGroup li.bounce { background-color:@areaListGroupItemBounceBackgroundColor !important; }
+
+ul.subareaListGroup li { background-color:@subAreaListGroupItemBackgroundColor; }
+/* Area list */
+
+/* Contest List  */
+.contestListGroup li { background-color:@subAreaListGroupItemBackgroundColor; }
+.contestListGroup li:hover { background-color:@subAreaListGroupItemHoverBackgroundColor; }
+/*  End of the Contest List */
+
+/* Contest Results Elements */
+#contests .btn-block:hover, #contests .btn-block:focus { color:@contestHoverTextColor; }
+.btn:hover, .btn:focus { color:@btnHoverTextColor; }
+.contest-back { background-color:@contestBackBackgroundColor; color:@contestBackTextColor; text-shadow: 1px 1px 4px @contestBackTxtShadowColor; }
+tr.winner { background-color:@contestWinnerBackgroundColor; }
+/* End of the Contest Results Elements */
+
+/* END OF THE MAIN BLOCK ELEMENTS */
+/*/////////////////////////////////////////*/
+/* THE HIDDEN ELEMENTS */
+#menu_tab { background-color:@menuTabBackgroundColor; }
+#updated { background-color:@updatedBackgroundColor; color:@updatedTextColor; }
+/* END OF THE HIDDEN ELEMENTS */
+/*/////////////////////////////////////////*/
+/* THE HIGHLITE ELEMENTS */
+
+.contestSelected { background-color:@mainTitleTextColor !important; }
+
+#contestListTitle { color:@mainTitleTextColor; }
+
+#selectedAreaTypeTitle { color:@mainTitleTextColor; }
+
+.bounce-sublevel { background-color:@mainTitleTextColor !important; }
+
+.btn-info { background-color:@mainTitleTextColor; border-color:@mainTitleTextColor; }
+
+.singleContestHeader { background-color:@mainTitleTextColor; }
+
+/* END OF THE HIGHLITE ELEMENTS */

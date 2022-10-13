@@ -1,0 +1,114 @@
+[
+	{
+		"id": "49",
+		"areaName": "City of Sault Ste. Marie",
+		"sort": 1,
+		"hasContests": true,
+		"areaTypeId": "1",
+		"parentAreaId": ""
+	},
+	{
+		"id": "31",
+		"areaName": "Ward 1",
+		"sort": 2,
+		"hasContests": true,
+		"areaTypeId": "47",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "32",
+		"areaName": "Ward 2",
+		"sort": 3,
+		"hasContests": true,
+		"areaTypeId": "47",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "33",
+		"areaName": "Ward 3",
+		"sort": 4,
+		"hasContests": true,
+		"areaTypeId": "47",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "34",
+		"areaName": "Ward 4",
+		"sort": 5,
+		"hasContests": true,
+		"areaTypeId": "47",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "35",
+		"areaName": "Ward 5",
+		"sort": 6,
+		"hasContests": true,
+		"areaTypeId": "47",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "41",
+		"areaName": "Algoma District School Board - Ward 1",
+		"sort": 7,
+		"hasContests": true,
+		"areaTypeId": "48",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "45",
+		"areaName": "Algoma District School Board - Ward 2",
+		"sort": 8,
+		"hasContests": true,
+		"areaTypeId": "48",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "46",
+		"areaName": "Algoma District School Board - Ward 3",
+		"sort": 9,
+		"hasContests": true,
+		"areaTypeId": "48",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "47",
+		"areaName": "Algoma District School Board - Ward 4",
+		"sort": 10,
+		"hasContests": true,
+		"areaTypeId": "48",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "48",
+		"areaName": "Algoma District School Board - Ward 5",
+		"sort": 11,
+		"hasContests": true,
+		"areaTypeId": "48",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "42",
+		"areaName": "Huron-Superior Catholic District School Board",
+		"sort": 12,
+		"hasContests": true,
+		"areaTypeId": "49",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "43",
+		"areaName": "Conseil scolaire public du Grand Nord de l'Ontario",
+		"sort": 13,
+		"hasContests": true,
+		"areaTypeId": "50",
+		"parentAreaId": "49"
+	},
+	{
+		"id": "44",
+		"areaName": "Conseil scolaire de district catholique du Nouvel-Ontario",
+		"sort": 14,
+		"hasContests": true,
+		"areaTypeId": "51",
+		"parentAreaId": "49"
+	}
+]

@@ -1,0 +1,318 @@
+<script id="divSingleContestsTemplate" type="text/template">
+
+    <p class="singleContestHeader">
+        <%- contestName %>
+        <span></span>
+    </p>
+    <div id="results<%= id %>" class="contest-table">
+
+        <table class="table">
+            <colgroup>
+                <col width="50%">
+                <col width="25%">
+                <col width="25%">
+            </colgroup>
+
+            <thead>
+            <tr>
+                <th data-resourceId="thVoteFor" class="localize" data-target="span"><span></span> <%= voteFor %></th>
+                <th data-resourceId="thVotes" class="localize th-text-right"></th>
+                <th data-resourceId="thPercentage" class="localize th-text-right"></th>
+            </tr>
+            </thead>
+
+        </table>
+
+    </div>
+
+</script>
+
+<script id="divContestsTemplate" type="text/template">
+
+    <button type="button" class="btn btn-block wrapword contest-back" data-toggle="collapse"
+            data-target="#results<%= id %>">
+        <%- contestName %>
+        <span class="pull-right text-danger glyphicon glyphicon-chevron-up"></span>
+    </button>
+    <div id="results<%= id %>" class="contest-table collapse in">
+
+        <table class="table">
+            <colgroup>
+                <col width="50%">
+                <col width="25%">
+                <col width="25%">
+            </colgroup>
+
+            <thead>
+            <tr>
+                <th data-resourceId="thVoteFor" class="localize" data-target="span"><span></span> <%= voteFor %></th>
+                <th data-resourceId="thVotes" class="th-text-right localize"></th>
+                <th data-resourceId="thPercentage" class="th-text-right localize"></th>
+            </tr>
+            </thead>
+
+        </table>
+
+    </div>
+
+</script>
+
+<script id="trChoicesTemplate" type="text/template">
+
+    <td class="choiceName"><%= choiceName %>
+        <button class="btn btn-info btn-xs partyButton pull-right" style="display:none" data-toggle="collapse"
+        data-target=""><span class="glyphicon glyphicon-chevron-down"></span>
+        <span data-resourceId="endorsedVotesTitle" class="localize"></span></button>
+    </td>
+    <td class="th-text-right"><%= votes %></td>
+    <td class="percentages th-text-right"><%= percentage %></td>
+
+</script>
+
+<script id="trAccalimedChoicesTemplate" type="text/template">
+
+    <td class="choiceName"><%= choiceName %>
+        <button class="btn btn-info btn-xs partyButton pull-right" style="display:none" data-toggle="collapse"
+                data-target=""><span class="glyphicon glyphicon-chevron-down"></span>
+            <span data-resourceId="endorsedVotesTitle" class="localize"></span></button>
+    </td>
+    <td class="th-text-right"><span id="acclaimed" data-resourceId="acclaimed" class="badge pull-right localize"></span></td>
+    <td class="percentages th-text-right"></td>
+
+</script>
+
+<script id="trDisabledChoicesTemplate" type="text/template">
+
+    <td class="choiceName"><%= choiceName %>
+        <button class="btn btn-info btn-xs partyButton pull-right" style="display:none" data-toggle="collapse"
+                data-target=""><span class="glyphicon glyphicon-chevron-down"></span>
+            <span data-resourceId="endorsedVotesTitle" class="localize"></span></button>
+    </td>
+    <td class="th-text-right"><span id="disabled" data-resourceId="disabled" class="badge pull-right localize"></span></td>
+    <td class="percentages th-text-right"></td>
+
+</script>
+
+
+<script id="divPartiesTemplate" type="text/template">
+
+     <table class="table-striped">
+         <colgroup>
+             <col width="50%">
+             <col width="25%">
+             <col width="25%">
+         </colgroup>
+         <thead>
+         <tr>
+             <th data-resourceId="thPartyName" class="localize"></th>
+             <th data-resourceId="thPartyVotes" class="th-text-right localize"></th>
+             <th data-resourceId="thPartyPercentage" class="th-text-right localize"></th>
+         </tr>
+         </thead>
+         <tbody>
+         </tbody>
+     </table>
+
+
+</script>
+
+<script id="trPartyTemplate" type="text/template">
+
+    <td><%= partyName %></td>
+    <td class="th-text-right"><%= votes %></td>
+    <td class="th-text-right"><%= percentage %></td>
+
+</script>
+
+<script id="areaReportTemplate0" type="text/template">
+    <table class="table table-bordered table-condensed">
+        <tbody>
+            <tr id="polls" class="isVisible" data-configId="showPolls">
+                <td data-resourceId="polls" class="localize statsLabel"></td>
+                <td><%= globClosedPolls %> / <%= globPolls %></td>
+            </tr>
+            <tr id="tabulators" class="isVisible" data-configId="showTabulators">
+                <td data-resourceId="tabulators" class="localize statsLabel"></td>
+                <td><%= globClosedTabulators %> / <%= globTabulators %></td>
+            </tr>
+            <tr id="ballotCast" class="isVisible" data-configId="showBallotCast">
+                <td data-resourceId="ballotCast" class="localize statsLabel"></td>
+                <td><%= globBallotCast %></td>
+            </tr>
+            <tr id="turnout" class="isVisible" data-configId="showTurnout">
+                <td data-resourceId="turnout" class="localize statsLabel"></td>
+                <td><%= globTurnout %></td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+<script id="areaReportTemplate1" type="text/template">
+    <table class="table table-bordered table-condensed">
+
+        <thead>
+            <tr>
+                <th data-resourceId="reportTitle" class="localize"></th>
+                <th data-resourceId="globalTitle" class="localize"></th>
+                <th data-resourceId="localTitle" class="localize"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="polls" class="isVisible" data-configId="showPolls">
+                <td data-resourceId="polls" class="localize statsLabel"></td>
+                <td><%= globClosedPolls %> / <%= globPolls %></td>
+                <td id="local_polls"></td>
+            </tr>
+            <tr id="tabulators" class="isVisible" data-configId="showTabulators">
+                <td data-resourceId="tabulators" class="localize statsLabel"></td>
+                <td><%= globClosedTabulators %> / <%= globTabulators %></td>
+                <td id="local_tabulators"></td>
+            </tr>
+            <tr id="ballotCast" class="isVisible" data-configId="showBallotCast">
+                <td data-resourceId="ballotCast" class="localize statsLabel"></td>
+                <td><%= globBallotCast %></td>
+                <td id="local_ballotCast"></td>
+            </tr>
+            <tr id="startedPolls" class="isVisible" data-configId="showStartedPolls">
+                <td data-resourceId="startedPolls" class="localize statsLabel"></td>
+                <td><%= globStartedPolls %></td>
+                <td id="local_startedPolls"></td>
+            </tr>
+            <tr id="turnout" class="isVisible" data-configId="showTurnout">
+                <td data-resourceId="turnout" class="localize statsLabel"></td>
+                <td><%= globTurnout %></td>
+                <td id="local_turnout"></td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+<script id="areaReportTemplate1_BallotBased" type="text/template">
+    <table class="table table-bordered table-condensed">
+
+        <thead>
+            <tr>
+                <th data-resourceId="reportTitle" class="localize"></th>
+                <th data-resourceId="globalTitle" class="localize"></th>
+                <th data-resourceId="localTitle" class="localize"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="polls" class="isVisible" data-configId="showPolls">
+                <td data-resourceId="polls" class="localize statsLabel"></td>
+                <td><%= globClosedPolls %> / <%= globPolls %></td>
+                <td id="local_polls"></td>
+            </tr>
+            <tr id="tabulators" class="isVisible" data-configId="showTabulators">
+                <td data-resourceId="tabulators" class="localize statsLabel"></td>
+                <td><%= globClosedTabulators %> / <%= globTabulators %></td>
+                <td id="local_tabulators"></td>
+
+            </tr>
+            <tr id="ballotCast" class="isVisible" data-configId="showBallotCast">
+                <td data-resourceId="ballotCast" class="localize statsLabel"></td>
+                <td><%= globBallotCast %></td>
+                <td id="local_ballotCast2"></td>
+
+            </tr>
+            <tr id="startedPolls" class="isVisible" data-configId="showStartedPolls">
+                <td data-resourceId="startedPolls" class="localize statsLabel"></td>
+                <td><%= globStartedPolls %></td>
+                <td id="local_startedPolls"></td>
+            </tr>
+            <tr id="turnout" class="isVisible" data-configId="showTurnout">
+                <td data-resourceId="turnout" class="localize statsLabel"></td>
+                <td><%= globTurnout %></td>
+                <td id="local_turnout2"></td>
+            </tr>
+        </tbody>
+    </table>
+</script>
+
+<script id="areaReportTemplate2" type="text/template">
+    <table class="table table-bordered table-condensed">
+        <tbody>
+        <tr>
+            <td></td>
+            <td data-resourceId="localTitle" class="localize"></td>
+            <td data-resourceId="globalTitle" class="localize"></td>
+        </tr>
+        <tr id="polls" class="isVisible" data-configId="showPolls">
+            <td data-resourceId="numberOfDistricts" class="localize"></td>
+            <td><%= polls %></td>
+            <td><%= globPolls %></td>
+        </tr>
+        <tr id="pollsreported" class="isVisible" data-configId="showPollsReported">
+            <td data-resourceId="pollsReported" class="localize"></td>
+            <td><%= closedPolls %></td>
+            <td><%= globClosedPolls %></td>
+        </tr>
+        <tr id="pollsnotreported" class="isVisible" data-configId="showPollsNotReported">
+            <td data-resourceId="pollsNotReported" class="localize"></td>
+            <td><%= polls - closedPolls %></td>
+            <td><%= globPolls - globClosedPolls %></td>
+        </tr>
+        </tbody>
+    </table>
+</script>
+
+<script id="contestListTemplate" type="text/template">
+    <ul class="nav nav-pills">
+        <li class="localize titles" data-resourceId="contestLabel"></li>
+        <li class="pull-right">
+            <div id="controlGroup" class="btn-group" data-toggle="buttons"></div>
+        </li>
+    </ul>
+    <ul class="contestListGroup list-group"></ul>
+</script>
+
+<script id="controlItem" type="text/template">
+        <input type="radio" name="options" id="<%= option %>">
+</script>
+
+<script id="clockTemplate" type="text/template">
+    <div class="clockwrapper">
+        <div class="spinner pie animation-duration"></div>
+        <div class="filler pie animation-duration"></div>
+        <div class="mask animation-duration"></div>
+    </div>
+</script>
+
+<script id="contestListItemTemplate" type="text/template">
+    <a href="#"><%= contestName %><span class="text-muted pull-right"></span></a>
+</script>
+
+<script id="allContestListItemTemplate" type="text/template">
+    <a href="#" class="localize" data-resourceId="allContestsTitle"><%= contestName %><span class="text-muted pull-right"></span></a>
+</script>
+
+<script id="contestModalDialogueTemplate" type="text/template">
+    <div class="modal fade" id="contestModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Contest Results</h4>
+                </div>
+                <div id="modalContest" class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<script id="pinnedContestTemplate" type="text/template">
+    <section id="pinnedContest" class="hidden-xs col-md-6"></section>
+</script>
+
+<script id="choiceProgressBarTemplate" type="text/template">
+    <div id="progBar<%= id %>" class="progress">
+        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="<%= percentage %>" aria-valuemin="0" aria-valuemax="100" style="width: <%= percentage %>;">
+        <span class="sr-only"><%= percentage %></span>
+        </div>
+    </div>
+</script>

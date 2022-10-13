@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<html lang="en">
+<head>
+    <script>
+//    (function () {
+//        if (location.hash) {
+//            window.scrollTo(0, 0);
+//                setTimeout(function() {
+//                    window.scrollTo(0, 0);
+//                }, 1);
+//            }
+//        }
+//    )();
+    </script>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Election Results</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/dvsmain.css">
+    <link rel="stylesheet" href="css/zanimate.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        (function(){
+            var html5tags = "address|article|aside|audio|canvas|command|datalist|details|dialog|figure|figcaption|footer|header|hgroup|keygen|mark|meter|menu|nav|progress|ruby|section|time|video".split('|');
+            for(var i = 0; i < html5tags.length; i++){
+                document.createElement(html5tags[i]);
+            }
+        })();
+    </script>
+    <![endif]-->
+</head>
+<body class="cbp-spmenu-push">
+<div id="wrap">
+    <header>
+        <div class="container">
+            <div id="logo" class="col-xs-3 col-sm-4 col-md-4">
+                <div id="lang_selection"></div>
+                <img src="images/logo.png"/>
+                <button type="button" class="btn btn-stats btn-info" data-toggle="collapse" data-target="#areaReport" data-toggle="button">
+                    <span class="glyphicon glyphicon-signal"></span>
+                </button>
+            </div>
+            <div id="electionTitles" class="col-xs-9 col-sm-8 col-md-4">
+                <aside id="electionTitle" data-resourceId="electionTitle" data-configId="showElectionTitle" data-target="h2" class="localize isVisible"><h2></h2></aside>
+                <aside id="unofficialTitle"  data-resourceId="unofficialTitle" data-configId="showUnofficialTitle" class="localize isVisible"></aside>
+             <!--<   <aside id="selectedAreaTitle"><h3></h3></aside>-->
+			 <br>
+                <aside id="eligibleVotersTitle" data-resourceId="eligibleVotersTitle" data-configId="showEligibleVotersTitle" data-target="span:first-child" class="localize isVisible"><span></span><span id="eligibleVotersNumber"></span></aside>
+                <aside id="eligibleVotersGlobalTitle" data-resourceId="eligibleVotersGlobalTitle" data-configId="showEligibleVotersGlobalTitle" data-target="span:first-child" class="localize isVisible"><span></span><span id="eligibleVotersGlobalNumber"></span></aside>
+                <div id="reloadTimeBar">
+
+                    <div class="counter text-muted" ><span class="localize" data-resourceId="reloadingTitle"></span><span id="counter"></span></div>
+                    <div class="reloadBar progress-bar progress-bar-info" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                        <span class="sr-only">60% Complete</span>
+                    </div>
+
+                </div>
+            </div>
+            <div id="areaReport" class="col-xs-12 col-sm-12 col-md-4">
+
+                <aside id="areaStatistics"></aside>
+            </div>
+        </div>
+
+    </header>
+
+    <nav id="areatypes" class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" style="display: none">
+    <!--<nav id="areatypes">-->
+        <h3 data-resourceId="areaTypeMenuTitle" class="localize">Menu</h3>
+        <div id="menu_tab"></div>
+        <!--<button type="button" class="btn-stats btn btn-default btn-sm" data-toggle="collapse" data-target="#areaReport">-->
+            <!--<span class="glyphicon glyphicon-signal"></span>-->
+        <!--</button>-->
+<div class="areaType_nav"></div>
+</nav>
+
+
+<div class="container">
+    <div class="row">
+
+			<section id="areas" class="col-xs-12 col-sm-12 col-md-4">
+            <!--<div id="controlGroup" class="btn-group animated bounceInRight" data-toggle="buttons">-->
+
+            <div id="areatype_control">
+                <div id="menu_control" class="btn-group" data-toggle="buttons"></div>
+                <span id="selectedAreaTypeTitle"></span>
+            </div>
+            <ul class="areaListGroup list-group"></ul>
+        </section>
+
+        <main class="col-xs-12 col-sm-12 col-md-8">
+
+            <section id="pinnedContest"></section>
+            <section id="contests"></section>
+        </main>
+    </div>
+</div>
+<div id="push"></div>
+</div>
+
+<footer>
+<div id="footer">
+    <div class="container">
+        <p class="muted credit"></p>
+        <p id="build">ER3.0.21<span id="ts"></span></p>
+        <p></p>
+    </div>
+</div>
+</footer>
+
+<script data-main="js/main" src="js/libs/require.js"></script>
+</body>
+</html>

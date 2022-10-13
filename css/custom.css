@@ -1,0 +1,213 @@
+/* THE HEADER  ELEMENTS */
+h1,
+h2 {
+  font-size: 26px;
+  color: #000000;
+}
+header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #0c67a3;
+  box-shadow: 0 3px 5px #9d9d9d;
+}
+@media screen and (min-width: 320px) {
+  .languageSelection {
+    font-size: 12px;
+    height: 20px;
+    border: none;
+    box-shadow: none;
+  }
+  .languageSelection > img {
+    display: none;
+  }
+  .bounce-sublevel {
+    background-color: #007681 !important;
+  }
+}
+@media screen and (min-width: 480px) {
+  .languageSelection {
+    background-color: #efefef;
+    border-bottom: 3px solid #bd5620;
+    height: 34px;
+  }
+  .languageSelection > img {
+    display: inline;
+  }
+}
+#eligibleVotersTitle {
+  border-top-color: #9d9d9d;
+}
+#areaStatistics tr {
+  background-color: #fafafa;
+}
+/* END OF THE HEADER  ELEMENTS */
+/*/////////////////////////////////////////*/
+/* FONT SIZE */
+@media screen and (min-width: 992px) {
+  tbody {
+    font-size: 15x;
+  }
+  .areaListGroup {
+    font-size: 15px;
+  }
+  .titles {
+    font-size: 16px;
+  }
+  #areas {
+    font-size: 15px;
+  }
+}
+/* END OF FONT SIZE */
+/*/////////////////////////////////////////*/
+/* MAIN BLOCK ELEMENTS */
+#wrap {
+  background-color: #ffffff;
+}
+/* Area type and area list */
+.cbp-spmenu {
+  background-color: #9d9d9d;
+}
+.cbp-spmenu {
+  background-color: #9d9d9d;
+}
+.cbp-spmenu a {
+  color: #ffffff;
+}
+.cbp-spmenu-vertical a {
+  border-bottom-color: #eaeaea;
+}
+.cbp-spmenu a:hover {
+  background: #6a6a6a;
+}
+.cbp-spmenu h3 {
+  color: #f0f0f0;
+  font-size: 1.9em;
+  background: #848484;
+}
+.areaType_nav .selected {
+  background: #007681;
+}
+.areaListGroup li {
+  background-color: #fafafa;
+}
+.areaListGroup li:hover {
+  background-color: #fafafa;
+}
+.areaListGroup li.bounce {
+  background-color: #007681 !important;
+}
+.areaListGroup li.bounce > a {
+  color: #ffffff;
+}
+.areaListGroup a {
+  color: #111111;
+}
+ul.subareaListGroup li {
+  background-color: #66615d;
+}
+ul.subareaListGroup li a {
+  color: #ffffff;
+}
+/* Area list */
+/* Contest List  */
+.contestListGroup li {
+  background-color: #66615d;
+}
+.contestListGroup li:hover {
+  background-color: #373737;
+}
+.contestListGroup a {
+  color: #ffffff;
+}
+@media screen and (min-width: 320px) {
+  #disabled .badge,
+  #incumbent .badge,
+  #acclaimed .badge {
+    background-color: #9d9d9d;
+    font-weight: normal;
+  }
+}
+/*  End of the Contest List */
+/* Contest Results Elements */
+#contests .btn-block:hover,
+#contests .btn-block:focus {
+  color: #4b4845;
+}
+.table > thead {
+  background-color: #f6f6f6;
+  border-bottom: 3px solid #BD5620;
+  color: #111111;
+}
+.btn:hover,
+.btn:focus {
+  color: #333333;
+  text-decoration: none;
+}
+.singleContestHeader,
+.contest-back {
+  background-color: #f6f6f6;
+  color: #111111;
+  border: 1px solid #BD5620;
+  border-bottom-width: 3px;
+  box-shadow: 0 0px 5px #BD5620;
+  margin-bottom: 0.05em;
+}
+tr.winner {
+  background-color: #b3ffb3;
+}
+tbody {
+  color: #111111;
+}
+/* End of the Contest Results Elements */
+/* END OF THE MAIN BLOCK ELEMENTS */
+/*/////////////////////////////////////////*/
+/* THE HIDDEN ELEMENTS */
+#updated {
+  background-color: #b3ffb3;
+  color: #111111;
+  border: 1px dotted #bd5620;
+}
+/* END OF THE HIDDEN ELEMENTS */
+/*/////////////////////////////////////////*/
+/* THE HIGHLITE ELEMENTS */
+.contestSelected {
+  background-color: #9d9d9d !important;
+}
+#contestListTitle {
+  color: #9d9d9d;
+}
+#selectedAreaTypeTitle {
+  color: #9d9d9d;
+}
+.btn-info {
+  background-color: #9d9d9d;
+  border-color: #9d9d9d;
+}
+.languageSelection a {
+  color: #9d9d9d;
+}
+.languageSelection a:hover,
+a:active {
+  color: #111111;
+}
+/* END OF THE HIGHLITE ELEMENTS */
+.progress-bar-danger {
+  background-color: #595451;
+}
+.progress-bar-info {
+  background-color: #9d9d9d;
+}
+#loopButton {
+  border: 1px solid #515151;
+}
+#menu_control .btn-primary {
+  background-color: #9d9d9d;
+  color: #ffffff;
+}
+#menu_control .active {
+  background-color: #4b4845;
+  border-color: #161514;
+}
+.btn-stats {
+  background-color: #9d9d9d;
+  border-color: #515151;
+}
