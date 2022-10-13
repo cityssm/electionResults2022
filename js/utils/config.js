@@ -80,7 +80,7 @@ define(function () {
         /* Advanced Controls */
 
         //Pinned Contest for desktop devices, true: show, false: hide
-        showPinnedContest: true,
+        showPinnedContest: false,
         //where to place the pinned contest? left or right column?
         isContestPinnedLeft: true,
         //if Pinned Contest is visible, define the Pinned Contest ID
