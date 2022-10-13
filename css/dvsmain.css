@@ -5,16 +5,14 @@
 }
 
 html {
-    margin:0;
-    padding:0;
-    /* desktop only! overflow-y: scroll*/
+    margin: 0;
+    padding: 0;
 }
 
 body {
-    margin:0;
-    padding:0;
-    /*font: normal 16px 'Montaga','Times New Roman',serif;*/
-    font: normal 16px 'Open Sans','Times New Roman',serif;
+    margin: 0;
+    padding: 0;
+    font: normal 16px "Open Sans", "Times New Roman", serif;
 }
 
 /* Sticky footer styles
@@ -23,33 +21,15 @@ body {
 html,
 body {
     height: 100%;
-    /* The html and body elements cannot have any padding or margin. */
 }
-
-
-/*header:after {*/
-    /*background: -moz-linear-gradient(center top , rgba(213, 215, 215, 0.80), rgba(245, 247, 247, 0.80)) repeat scroll 0 0 transparent;*/
-    /*border-bottom: 1px solid #ced0d0;*/
-    /*border-top-left-radius: 1px;*/
-    /*border-top-right-radius: 1px;*/
-    /*content: "";*/
-    /*height: 2px;*/
-    /*left: 0;*/
-    /*position: absolute;*/
-    /*right: 0;*/
-    /*z-index: 2;*/
-    /*margin-bottom: 0.6em;*/
-/*}*/
-
 
 header {
     padding-top: 0.6em;
     margin-bottom: 0.6em;
     background-color: rgb(239, 247, 255);
-    /*background-color: #F5F7F7;*/
-    border-bottom: 1px solid #EAEBEB;
-    border-top: 1px solid #EAEBEB;
-    box-shadow: 0 1px 0 #FFFFFF inset;
+    border-bottom: 1px solid #eaebeb;
+    border-top: 1px solid #eaebeb;
+    box-shadow: 0 1px 0 #ffffff inset;
 }
 
 /* Wrapper for page content to push down footer */
@@ -61,78 +41,68 @@ header {
     margin: 0 auto -61px;
 }
 
-/*#wrap:after {*/
-    /*content: "";*/
-    /*display: block;*/
-    /*height: 61px;*/
-/*}*/
-
 /* Set the fixed height of the footer here */
 #push {
     height: 61px;
 }
 
-
 #footer {
-    /*background: #d7d7d7 url(../images/dvslogo.png) no-repeat 95% 50%;*/
     background: #d7d7d7;
     border-top: #868686 1px solid;
     padding: 10px 0;
     text-align: center;
     margin-top: -61px; /* negative value of footer height */
-    clear:both;
-    -moz-box-shadow:    inset 0 2px 10px #A0A0A0;
-    -webkit-box-shadow: inset 0 2px 10px #A0A0A0;
-    box-shadow:         inset 0 2px 10px #A0A0A0;
+    clear: both;
+    -moz-box-shadow: inset 0 2px 10px #a0a0a0;
+    -webkit-box-shadow: inset 0 2px 10px #a0a0a0;
+    box-shadow: inset 0 2px 10px #a0a0a0;
     height: 61px;
 }
 
-
 h1 {
     text-shadow: 2px 2px 0 #fff;
-    border-bottom: 1px dotted #D7D5D7;
+    border-bottom: 1px dotted #d7d5d7;
     color: #676761;
-    /*box-shadow: 0 1px 0 #FFFFFF inset;*/
 }
 
 h2 {
-    text-shadow: 1px 1px 0 #D7D5D7;
-    color: #258ECB;
-    margin:0;
+    text-shadow: 1px 1px 0 #d7d5d7;
+    color: #258ecb;
+    margin: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-size: 24px;
 }
 
-h1,h2,h3,h4 {
+h1,
+h2,
+h3,
+h4 {
     font-family: inherit;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
     white-space: nowrap;
 }
 
-.table > thead  {
-    font-family: 'Open Sans', sans-serif;
+.table > thead {
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     background-color: #c2dcf9;
 }
 
 .table-condensed > thead > tr > th {
-    border-bottom: 2px solid #9FAFBB;
+    border-bottom: 2px solid #9fafbb;
 }
 
 tr.winner {
     background-color: rgb(213, 255, 202);
 }
 
-#language-block{
-
-}
-
 #loader {
     width: 200px;
-    height:200px;
+    height: 200px;
     background-color: #d4d4d4;
     color: #222;
 }
@@ -159,16 +129,12 @@ tr.winner {
 .progress {
     margin: 2px 0 0 0;
     height: 2px;
-    background-color: #EEE;
-    box-shadow: 1px 1px 1px #AAA;
+    background-color: #eee;
+    box-shadow: 1px 1px 1px #aaa;
 }
 
 .progress-bar {
     height: 2px;
-}
-
-.votefor {
-
 }
 
 .th-text-right {
@@ -177,15 +143,12 @@ tr.winner {
 
 .partyButton {
     margin: 0 0 1ex 2ex;
-    /*background-color: #b4b4b4;*/
-    /*border-color: #b4b4b4;*/
-    /*text-shadow: 1px 1px 0 #999;*/
 }
 
 .partyBlock {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 0.8em;
-    float:left;
+    float: left;
     background: #eeede8;
     border: 1px solid #fff;
     border-radius: 3px;
@@ -207,10 +170,10 @@ tr.winner {
     background-color: #c2dcf9;
     color: #000;
     font-size: 18px;
-    border-top: 1px solid #4185C2;
-    border-bottom: 5px solid #4185C2;
-    border-left: 1px solid #4185C2;
-    border-right: 1px solid #4185C2;
+    border-top: 1px solid #4185c2;
+    border-bottom: 5px solid #4185c2;
+    border-left: 1px solid #4185c2;
+    border-right: 1px solid #4185c2;
     border-top-left-radius: 2px;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 0;
@@ -219,14 +182,14 @@ tr.winner {
     padding-right: 0.4em;
     min-height: 30px;
     margin-bottom: 10px;
-	font-weight: bold;
+    font-weight: bold;
 }
 
-.wrapword{
-    white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
-    white-space: -o-pre-wrap;    /* Opera 7 */
-    white-space: pre-wrap;       /* css-3 */
-    word-wrap: normal;       /* Internet Explorer 5.5+ */
+.wrapword {
+    white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+    white-space: -o-pre-wrap; /* Opera 7 */
+    white-space: pre-wrap; /* css-3 */
+    word-wrap: normal; /* Internet Explorer 5.5+ */
     word-break: normal;
     white-space: normal;
 }
@@ -244,30 +207,26 @@ tr.winner {
 }
 
 .areaListGroup li.bounce {
-    background-color: #258ECB !important;
+    background-color: #258ecb !important;
 }
 
 .areaListGroup li.bounce > a {
     color: #fff;
 }
 
-#areas .nav-pills>li.active>a {
-    background-color: #258ECB;
+#areas .nav-pills > li.active > a {
+    background-color: #258ecb;
 }
 
 #menu_control {
     padding-bottom: 3.5em;
 }
 
-#menu_control .btn {
-    /*width: 100px;*/
-}
-
 #menu_control .active {
     background-color: #c63841;
     border-color: #58150f;
-    box-shadow: inset 3px 5px 5px rgba(0,0,0,0.18);
-    text-shadow: 1px 1px 3px #110F0F;
+    box-shadow: inset 3px 5px 5px rgba(0, 0, 0, 0.18);
+    text-shadow: 1px 1px 3px #110f0f;
     color: #fff;
 }
 
@@ -276,8 +235,7 @@ tr.winner {
     color: #fff;
 }
 
-
-#areas .nav-pills>li.active-selected>a {
+#areas .nav-pills > li.active-selected > a {
     background-color: #852730;
     color: #fff;
 }
@@ -286,11 +244,11 @@ tr.winner {
     margin-bottom: 6px;
 }
 
-#areas .nav>li>a {
+#areas .nav > li > a {
     padding: 5px 15px;
 }
 
-#areas .nav>li.titles {
+#areas .nav > li.titles {
     color: #000000;
     padding-top: 0.7ex;
     padding-left: 1.2ex;
@@ -301,22 +259,19 @@ tr.winner {
 }
 
 .areaListGroup li:hover {
-    background-color: #6BA539;
+    background-color: #6ba539;
 }
 
-.subareaListGroup li {
-    /*background-color: #fafafa;*/
-}
 ul.subareaListGroup li {
     background-color: #777;
 }
 
 ul.subareaListGroup li:hover {
-    background-color: #6BA539;
+    background-color: #6ba539;
 }
 
 ul.subareaListGroup li a {
-    color: #FFF;
+    color: #fff;
 }
 
 ul.subareaListGroup {
@@ -326,15 +281,13 @@ ul.subareaListGroup {
 
 /* Contest Navigation List  */
 .contestListGroup a {
-    color: #FFF;
+    color: #fff;
     text-decoration: none;
     display: block;
 }
 
 .contestListGroup li {
     background-color: #777;
-    /*background-color: #64A9E6;*/
-    /*background-color: #5EA0E7;*/
 }
 
 .contestListGroup li:hover {
@@ -342,7 +295,7 @@ ul.subareaListGroup {
 }
 
 .contestSelected {
-    background-color: #258ECB !important;
+    background-color: #258ecb !important;
 }
 
 #contestListTitle {
@@ -352,15 +305,14 @@ ul.subareaListGroup {
     padding-bottom: 0.5ex;
 }
 
-
 .singleContestHeader {
     padding: 0.8ex;
     text-align: center;
     background-color: #c2dcf9;
     color: #000;
     font-size: 18px;
-	font-weight: 600;
-    border: 1px solid #4185C2;
+    font-weight: 600;
+    border: 1px solid #4185c2;
     border-bottom-width: 5px;
     box-shadow: 0 2px 5px #b8c1ff;
 }
@@ -368,8 +320,8 @@ ul.subareaListGroup {
 /* Override bootstrap css*/
 
 .list-group-item {
-    background-color: #FFF;
-    border: 1px solid #DDD;
+    background-color: #fff;
+    border: 1px solid #ddd;
     display: block;
     margin-bottom: -1px;
     padding: 5px 10px;
@@ -377,11 +329,8 @@ ul.subareaListGroup {
 }
 
 li.list-group-item > a > span {
-    text-shadow: 1px 1px 5px #AAA;
+    text-shadow: 1px 1px 5px #aaa;
 }
-
-/*table.fixed { table-layout:fixed; }*/
-/*table.fixed td { overflow: hidden; }*/
 
 #contests .btn-block:hover,
 #contests .btn-block:focus {
@@ -393,28 +342,33 @@ li.list-group-item > a > span {
     color: #111;
 }
 
-.btn-toolbar {}
-
-.btn:hover, .btn:focus {
+.btn:hover,
+.btn:focus {
     text-decoration: none;
 }
 
-#atype-list { margin-top: 10px; }
+#atype-list {
+    margin-top: 10px;
+}
 
-#headerrow { text-align:center; }
+#headerrow {
+    text-align: center;
+}
 
-#sel-atype-label { display:block; }
-.visible-xs #sel-atype-label { padding:6px 8px; line-height:1.428571429; display:inline-block; }
-#loop-label {padding-left: 2px; }
-
-.sublevel-open {}
+#sel-atype-label {
+    display: block;
+}
+.visible-xs #sel-atype-label {
+    padding: 6px 8px;
+    line-height: 1.428571429;
+    display: inline-block;
+}
+#loop-label {
+    padding-left: 2px;
+}
 
 .contest-table {
     padding-top: 7px;
-}
-
-#electionData{
-
 }
 
 #selectedAreaTitle {
@@ -436,7 +390,7 @@ li.list-group-item > a > span {
     padding-top: 3px;
 }
 
-#electionTitle h2{
+#electionTitle h2 {
     white-space: normal;
 }
 
@@ -445,20 +399,19 @@ li.list-group-item > a > span {
     padding-left: 0;
 }
 
-
 #areaStatistics .table {
     margin-bottom: 1ex;
     background-color: ghostwhite;
 }
 
 #areaStatistics tbody {
-    text-shadow: 2px 2px 3px #CACACA;
-	font-size: 13px;
+    text-shadow: 2px 2px 3px #cacaca;
+    font-size: 13px;
 }
 
 #eligibleVotersTitle {
     padding-top: 0.5ex;
-    border-top: 1px solid #258ECB;
+    border-top: 1px solid #258ecb;
     color: #5d5d5d;
     font-size: 14px;
 }
@@ -478,16 +431,15 @@ li.list-group-item > a > span {
 }
 
 .languageSelection {
-    /*background: #E4E4E4 url('../images/shadowblock.png') repeat-x center 125%;*/
     height: 34px;
     margin-top: -15px;
     border-radius: 3px;
     font-size: 14px;
-    color: #AAA;
+    color: #aaa;
     border-left: solid 1px #d5d5d5;
     border-right: solid 1px #d5d5d5;
-    border-bottom: 3px solid #66615D;
-    box-shadow: 0 2px 5px #B8B8B9;
+    border-bottom: 3px solid #66615d;
+    box-shadow: 0 2px 5px #b8b8b9;
 }
 
 .languageSelection a {
@@ -526,7 +478,7 @@ h1 {
     float: right;
 }
 
-#menu_tab a{
+#menu_tab a {
     margin: -61px 0 0 -11px;
     border-bottom: none;
 }
@@ -534,7 +486,6 @@ h1 {
 .areaType_nav {
     height: 100%;
 }
-
 
 #updated {
     font-size: 2ex;
@@ -568,21 +519,21 @@ h1 {
 
 /* Lastly, apply responsive CSS fixes as necessary */
 @media (max-width: 767px) {
-
     #footer {
         padding-left: 20px;
         padding-right: 20px;
     }
 
-    @-ms-viewport{
-    width:700px;
+    @-ms-viewport {
+        width: 700px;
     }
 }
 
 /* Stycky footer styles: end ---------------------
 -------------------------------------------------- */
-@media (min-width:320px){
-    h1, h2 {
+@media (min-width: 320px) {
+    h1,
+    h2 {
         font-size: 16px;
         word-wrap: normal;
     }
@@ -592,8 +543,8 @@ h1 {
     }
 
     #logo {
-        padding-top: 0em ;
-        padding-bottom: 0.2em ;
+        padding-top: 0em;
+        padding-bottom: 0.2em;
         text-align: left;
     }
 
@@ -603,8 +554,8 @@ h1 {
     }
 
     #electionTitle {
-        padding-top: 0.2em ;
-        padding-bottom: 0.2em ;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
     }
 
     #electionTitle h2 {
@@ -642,7 +593,7 @@ h1 {
         border-radius: 0;
         min-height: 40px;
         padding-top: 0.65em;
-        border: 1px solid #0B448D;
+        border: 1px solid #0b448d;
     }
 
     .btn-stats {
@@ -656,7 +607,7 @@ h1 {
         border-radius: 0;
         min-height: 10px;
         padding-top: 0.65em;
-        border: 1px solid #0B448D;
+        border: 1px solid #0b448d;
     }
 
     .btnBackToAreaList span:first-child {
@@ -672,12 +623,12 @@ h1 {
     }
 
     .areaListGroup {
-      margin-top: 1.2em;
+        margin-top: 1.2em;
     }
 
     .contestResult {
         font-size: 16px;
-		font-weight: 600;
+        font-weight: 600;
     }
 
     #areas {
@@ -688,32 +639,26 @@ h1 {
         font-size: 12px;
     }
 
-    #disabled.badge, #incumbent.badge, #acclaimed.badge {
+    #disabled.badge,
+    #incumbent.badge,
+    #acclaimed.badge {
         background-color: #4185c2;
         font-weight: normal;
     }
-
 }
 
-@media (min-width:480px){
-    h1, h2 {
+@media (min-width: 480px) {
+    h1,
+    h2 {
         font-size: 18px;
         word-wrap: normal;
     }
-
 }
 
 @media (min-width: 768px) {
-
-    /*@-ms-viewport{*/
-        /*width:640px;*/
-    /*}*/
-
-
     .container {
         width: 95%;
     }
-
 
     #logo img {
         max-height: 120px;
@@ -752,11 +697,11 @@ h1 {
 
     .contest-back {
         font-size: 18px;
-		font-weight: 600;
+        font-weight: 600;
     }
-    .singleContestHeader  {
+    .singleContestHeader {
         font-size: 18px;
-		font-weight: 600;
+        font-weight: 600;
     }
 
     #areatype_control {
@@ -778,11 +723,6 @@ h1 {
     }
 }
 @media (min-width: 992px) {
-
-    /*@-ms-viewport{*/
-        /*width:768px;*/
-    /*}*/
-
     .container {
         width: 95%;
     }
@@ -795,7 +735,7 @@ h1 {
 
     #electionTitle h2 {
         font-size: 20px;
-		margin: 0px 0;
+        margin: 0px 0;
     }
 
     #unofficialTitle {
@@ -803,7 +743,7 @@ h1 {
     }
 
     #selectedAreaTitle {
-		font-size: 20px;
+        font-size: 20px;
         padding-top: 2ex;
         text-align: left;
         padding-bottom: 0.5ex;
@@ -818,11 +758,11 @@ h1 {
 
     .contest-back {
         font-size: 20px;
-		font-weight: 600;
+        font-weight: 600;
     }
-    .singleContestHeader  {
+    .singleContestHeader {
         font-size: 16px;
-		font-weight: 600;
+        font-weight: 600;
     }
 
     .areaListGroup li.bounce-sublevel > a {
@@ -835,7 +775,7 @@ h1 {
 
     .contestResult {
         font-size: 14px;
-		font-weight: 600;
+        font-weight: 600;
     }
 
     #areas {
@@ -850,9 +790,7 @@ h1 {
         font-size: 12px;
         margin-top: 0.5em;
     }
-
 }
-
 
 @media (min-width: 1200px) {
     .container {
@@ -860,8 +798,8 @@ h1 {
     }
 
     #logo {
-        padding-top: 0.0em ;
-        padding-bottom: 0.2em ;
+        padding-top: 0em;
+        padding-bottom: 0.2em;
         text-align: center;
     }
 
@@ -872,8 +810,8 @@ h1 {
     }
 
     #electionTitles {
-        padding-top: 0.1em ;
-        padding-bottom: 0.2em ;
+        padding-top: 0.1em;
+        padding-bottom: 0.2em;
     }
 
     #eligibleVotersTitle {
@@ -890,5 +828,4 @@ h1 {
         white-space: normal;
         font-size: 13px;
     }
-
 }
