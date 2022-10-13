@@ -1,10 +1,8 @@
 /* global define */
-define (function(){
-
+define(function () {
     "use strict";
 
     return {
-
         /* Election Labels */
         electionTitleEN: "City of Sault Ste. Marie 2022 Municipal Election",
         unofficialTitleEN: "Unofficial Results",
@@ -40,7 +38,7 @@ define (function(){
         //contest display effect: 0 - no effect, 1 - slideDown, 2 - fadeIn
         contestDisplayEffect: 0,
         //area list item display effect: 0 - no effect, 1 - flash, 2 - bounce
-        areaListItemAnimation : 1,
+        areaListItemAnimation: 1,
 
         /* Basic functions */
         //duration of timer in seconds for reloading results, allowed values: 10-120, otherwise default value is 30 seconds
@@ -107,6 +105,5 @@ define (function(){
         showDisabled: false,
         //mark choice with the incumbent status
         showIncumbent: false
-
     };
 });

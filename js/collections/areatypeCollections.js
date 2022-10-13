@@ -1,49 +1,57 @@
-define (["backbone", "jquery", "underscore", "app/views/areatypeViews", "app/utils/config",  "app/utils/helper"],
-    function(Backbone, $, _, Views, Config, Helper){
+define([
+    "backbone",
+    "jquery",
+    "underscore",
+    "app/views/areatypeViews",
+    "app/utils/config",
+    "app/utils/helper"
+], function (Backbone, $, _, Views, Config, Helper) {
+    "use strict";
 
-        "use strict";
+    var Models = {};
+    var Collections = {};
 
-        var Models = {};
-        var Collections = {};
+    Models.AreatypeModel = Backbone.Model.extend({});
 
-        Models.AreatypeModel = Backbone.Model.extend({});
+    Collections.AreaTypeCollection = Backbone.Collection.extend({
+        model: Models.AreatypeModel,
+        url: Config.defaultURLprefix + Config.defaultAreaTypeFileName + ".json",
 
-        Collections.AreaTypeCollection = Backbone.Collection.extend({
+        onErrorHandler: function (collection, response) {
+            //var erroMessage = "error"+response.status;
+            Helper.alertMessage(
+                "initialStateNote",
+                "Areatype " + response.status + " (" + response.statusText + ")"
+            );
+        },
 
-            model: Models.AreatypeModel,
-            url: Config.defaultURLprefix + Config.defaultAreaTypeFileName+'.json',
+        onCompleteHandler: function (xhr, textStatus) {
+            //console.log("Status " + textStatus);
+        },
 
-            onErrorHandler: function (collection, response) {
-                //var erroMessage = "error"+response.status;
-                Helper.alertMessage("initialStateNote", 'Areatype '+response.status +' ('+response.statusText+')');
-            },
+        initialize: function () {
+            this.url = this.url + Helper.randomTimestamp();
+            this.fetch({
+                reset: true,
+                update: true,
+                error: this.onErrorHandler,
+                complete: this.onCompleteHandler
+            });
+            //this.fetch({ reset:true });
+            this.on("reset", this.addView);
+        },
 
-            onCompleteHandler: function (xhr, textStatus) {
-                //console.log("Status " + textStatus);
-            },
+        addView: function () {
+            this.map(function (model) {
+                Helper.AreatypesRelationDictionary[model.id] = model.attributes.parentid;
+            });
 
-            initialize: function(){
-                this.url = this.url+Helper.randomTimestamp();
-                this.fetch({ reset: true, update: true, error: this.onErrorHandler, complete: this.onCompleteHandler });
-                //this.fetch({ reset:true });
-                this.on('reset', this.addView);
-
-            },
-
-            addView: function(){
-
-                this.map(function(model){
-                    Helper.AreatypesRelationDictionary[model.id] =  model.attributes.parentid;
-                });
-
-                if(this.length>0){
-                    Views.areaTypeView = new Views.AreaTypeCollectionView({ collection: this });
-                    Views.areaTypeView.render();
-                }
+            if (this.length > 0) {
+                Views.areaTypeView = new Views.AreaTypeCollectionView({ collection: this });
+                Views.areaTypeView.render();
             }
+        }
+    });
 
-        });
-
-        return  Collections;
-
+    return Collections;
 });

@@ -1,28 +1,28 @@
 /* global define, require, requirejs */
 requirejs.config({
     locale: "en",
-    baseUrl: 'js/libs',
+    baseUrl: "js/libs",
     paths: {
-        "jquery": 'jquery-1.11',
-        "underscore": 'underscore-min',
-        "backbone": 'backbone',
-        "bootstrap": "bootstrap.min",
-        "app": '..'
+        jquery: "jquery-1.11",
+        underscore: "underscore-min",
+        backbone: "backbone",
+        bootstrap: "bootstrap.min",
+        app: ".."
     },
     shim: {
-        "underscore": {
+        underscore: {
             deps: [],
             exports: "_"
         },
-        "backbone": {
+        backbone: {
             deps: ["jquery", "underscore"],
             exports: "Backbone"
         },
-        "bootstrap": {
+        bootstrap: {
             deps: ["jquery"],
             exports: "Bootstrap"
         }
     }
 });
 
-require(['app/app']);
+require(["app/app"]);

@@ -1,44 +1,44 @@
 [
-	{
-		"id": "1",
-		"areaType": "Municipality",
-		"hasContests": true,
-		"showByDefault": true,
-		"parentid": ""
-	},
-	{
-		"id": "47",
-		"areaType": "Ward",
-		"hasContests": true,
-		"showByDefault": false,
-		"parentid": "1"
-	},
-	{
-		"id": "48",
-		"areaType": "English Public",
-		"hasContests": true,
-		"showByDefault": false,
-		"parentid": "1"
-	},
-	{
-		"id": "49",
-		"areaType": "English Separate",
-		"hasContests": true,
-		"showByDefault": false,
-		"parentid": "1"
-	},
-	{
-		"id": "50",
-		"areaType": "French Public",
-		"hasContests": true,
-		"showByDefault": false,
-		"parentid": "1"
-	},
-	{
-		"id": "51",
-		"areaType": "French Separate",
-		"hasContests": true,
-		"showByDefault": false,
-		"parentid": "1"
-	}
+    {
+        "id": "1",
+        "areaType": "Municipality",
+        "hasContests": true,
+        "showByDefault": true,
+        "parentid": ""
+    },
+    {
+        "id": "47",
+        "areaType": "Ward",
+        "hasContests": true,
+        "showByDefault": false,
+        "parentid": "1"
+    },
+    {
+        "id": "48",
+        "areaType": "English Public",
+        "hasContests": true,
+        "showByDefault": false,
+        "parentid": "1"
+    },
+    {
+        "id": "49",
+        "areaType": "English Separate",
+        "hasContests": true,
+        "showByDefault": false,
+        "parentid": "1"
+    },
+    {
+        "id": "50",
+        "areaType": "French Public",
+        "hasContests": true,
+        "showByDefault": false,
+        "parentid": "1"
+    },
+    {
+        "id": "51",
+        "areaType": "French Separate",
+        "hasContests": true,
+        "showByDefault": false,
+        "parentid": "1"
+    }
 ]
