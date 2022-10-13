@@ -1,5 +1,5 @@
 {
-    "pageTitle": "Election Results (Unofficial)",
+    "pageTitle": "City of Sault Ste. Marie 2022 Municipal Election Results (Unofficial)",
     "electionTitle": "2022 Municipal Elections",
     "unofficialTitle": "Unofficial Results",
     "eligibleVotersTitle": "Eligible Voters: ",
@@ -28,7 +28,7 @@
     "contestLabel": "Office",
     "updatedTitle": "UPDATED!",
     "allContestsTitle": "All Offices",
-    "loopTitle": "LOOP",
+    "loopTitle": "Loop through results",
     "exitLoopTitle": "Exit Loop",
     "reloadTitle": "Reload",
     "error404": "Data not found.",
