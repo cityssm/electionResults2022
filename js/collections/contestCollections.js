@@ -130,6 +130,10 @@ define([
             var redZone = Math.floor((periodLength / 3) * 2);
             //console.log('redZone = '+redZone);
             $reloadBar.css("width", counter);
+            $reloadBar.attr("aria-valuenow", "0");
+            $reloadBar.attr("aria-valuemin", "0");
+            $reloadBar.attr("aria-valuemax", stop);
+            $reloadBar.html("<span class=\"sr-only\">0% Complete</span>");
 
             if (Helper.isLoopActive) {
                 $counter.text("");
@@ -141,8 +145,11 @@ define([
                 if (counter > redZone) {
                     $reloadBar.removeClass("progress-bar-info").addClass("progress-bar-danger");
                 }
+
                 $reloadBar.css("width", w + "%");
-                //console.log(counter);
+                $reloadBar.attr("aria-valuenow", (counter + 1));
+                $reloadBar.html("<span class=\"sr-only\">" + w + "% Complete</span>");
+                
                 $counter.text(stop - counter - 1 + " s");
                 if (counter > stop) {
                     counter = 0;
