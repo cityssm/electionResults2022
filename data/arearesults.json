@@ -2,12 +2,12 @@
 	"statistics": {
 		"projectName": "City of Sault Ste Marie 2022 Municipal Election",
 		"official": "5761",
-		"timeStamp": "2022-10-24 20:56:26",
+		"timeStamp": "2022-10-24 21:03:53",
 		"eligibleVoters": 57659,
-		"globTurnout": "26.30%",
-		"globBallotCast": 15166,
+		"globTurnout": "30.89%",
+		"globBallotCast": 17811,
 		"globTabulators": 45,
-		"globClosedTabulators": 31,
+		"globClosedTabulators": 37,
 		"globStartedPolls": 0,
 		"globPolls": 5,
 		"globClosedPolls": 0,
@@ -16,7 +16,7 @@
 					"countingGroupId": "1",
 					"countingGroupName": "Election Day",
 					"tabulators": 43,
-					"closedTabulators": 29
+					"closedTabulators": 35
 				},
 				{
 					"countingGroupId": "2",
@@ -40,12 +40,12 @@
 			"49": {
 				"statistics": {
 					"eligibleVoters": 57659,
-					"turnout": "26.30%",
-					"turnout2": "26.30%",
-					"ballotCast": 15166,
-					"ballotCast2": 15166,
+					"turnout": "30.89%",
+					"turnout2": "30.89%",
+					"ballotCast": 17811,
+					"ballotCast2": 17811,
 					"tabulators": 45,
-					"closedTabulators": 31,
+					"closedTabulators": 37,
 					"startedPolls": 0,
 					"polls": 5,
 					"closedPolls": 0,
@@ -54,7 +54,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 43,
-								"closedTabulators": 29
+								"closedTabulators": 35
 							},
 							{
 								"countingGroupId": "2",
@@ -77,15 +77,15 @@
 						"voteFor": 1,
 						"isAcclaimed": false,
 						"eligibleVoters": 57659,
-						"turnout": "26.30%",
-						"ballotCast": 15166,
+						"turnout": "30.89%",
+						"ballotCast": 17811,
 						"sort": 1,
 						"choiceResults": [
 							{
 								"id": "1",
 								"choiceName": "Ozzie Grandinetti",
-								"votes": 3773,
-								"percentage": "25.00%",
+								"votes": 4449,
+								"percentage": "25.10%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -95,8 +95,8 @@
 							{
 								"id": "2",
 								"choiceName": "Donna Hilsinger",
-								"votes": 2794,
-								"percentage": "18.51%",
+								"votes": 3300,
+								"percentage": "18.62%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -106,8 +106,8 @@
 							{
 								"id": "3",
 								"choiceName": "Tobin Kern",
-								"votes": 465,
-								"percentage": "3.08%",
+								"votes": 552,
+								"percentage": "3.11%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -117,8 +117,8 @@
 							{
 								"id": "4",
 								"choiceName": "Robert Peace",
-								"votes": 1382,
-								"percentage": "9.16%",
+								"votes": 1633,
+								"percentage": "9.21%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -128,8 +128,8 @@
 							{
 								"id": "5",
 								"choiceName": "Matthew Shoemaker",
-								"votes": 6678,
-								"percentage": "44.25%",
+								"votes": 7793,
+								"percentage": "43.96%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -143,12 +143,12 @@
 			"31": {
 				"statistics": {
 					"eligibleVoters": 13738,
-					"turnout": "23.03%",
-					"turnout2": "23.03%",
-					"ballotCast": 3164,
-					"ballotCast2": 3164,
+					"turnout": "27.40%",
+					"turnout2": "27.40%",
+					"ballotCast": 3764,
+					"ballotCast2": 3764,
 					"tabulators": 13,
-					"closedTabulators": 7,
+					"closedTabulators": 8,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -157,7 +157,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 11,
-								"closedTabulators": 5
+								"closedTabulators": 6
 							},
 							{
 								"countingGroupId": "2",
@@ -180,15 +180,15 @@
 						"voteFor": 2,
 						"isAcclaimed": false,
 						"eligibleVoters": 13738,
-						"turnout": "23.03%",
-						"ballotCast": 3164,
+						"turnout": "27.40%",
+						"ballotCast": 3764,
 						"sort": 2,
 						"choiceResults": [
 							{
 								"id": "6",
 								"choiceName": "Brent Derochie",
-								"votes": 1156,
-								"percentage": "22.11%",
+								"votes": 1406,
+								"percentage": "22.28%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -198,8 +198,8 @@
 							{
 								"id": "7",
 								"choiceName": "Sandra Hollingsworth",
-								"votes": 1854,
-								"percentage": "35.46%",
+								"votes": 2225,
+								"percentage": "35.26%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -209,8 +209,8 @@
 							{
 								"id": "8",
 								"choiceName": "Johnathan Lalonde",
-								"votes": 267,
-								"percentage": "5.11%",
+								"votes": 342,
+								"percentage": "5.42%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -220,8 +220,8 @@
 							{
 								"id": "9",
 								"choiceName": "William McPhee",
-								"votes": 297,
-								"percentage": "5.68%",
+								"votes": 368,
+								"percentage": "5.83%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -231,8 +231,8 @@
 							{
 								"id": "10",
 								"choiceName": "Sonny Spina",
-								"votes": 1654,
-								"percentage": "31.64%",
+								"votes": 1970,
+								"percentage": "31.22%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -246,12 +246,12 @@
 			"32": {
 				"statistics": {
 					"eligibleVoters": 11677,
-					"turnout": "25.80%",
-					"turnout2": "25.80%",
-					"ballotCast": 3013,
-					"ballotCast2": 3013,
+					"turnout": "33.69%",
+					"turnout2": "33.69%",
+					"ballotCast": 3934,
+					"ballotCast2": 3934,
 					"tabulators": 14,
-					"closedTabulators": 10,
+					"closedTabulators": 12,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -260,7 +260,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 12,
-								"closedTabulators": 8
+								"closedTabulators": 10
 							},
 							{
 								"countingGroupId": "2",
@@ -283,15 +283,15 @@
 						"voteFor": 2,
 						"isAcclaimed": false,
 						"eligibleVoters": 11677,
-						"turnout": "25.80%",
-						"ballotCast": 3013,
+						"turnout": "33.69%",
+						"ballotCast": 3934,
 						"sort": 3,
 						"choiceResults": [
 							{
 								"id": "11",
 								"choiceName": "Nick Armstrong",
-								"votes": 700,
-								"percentage": "14.13%",
+								"votes": 934,
+								"percentage": "14.50%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -301,8 +301,8 @@
 							{
 								"id": "12",
 								"choiceName": "Luke Dufour",
-								"votes": 1761,
-								"percentage": "35.54%",
+								"votes": 2358,
+								"percentage": "36.60%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -312,8 +312,8 @@
 							{
 								"id": "13",
 								"choiceName": "Dennis Murphy",
-								"votes": 890,
-								"percentage": "17.96%",
+								"votes": 1060,
+								"percentage": "16.45%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -323,8 +323,8 @@
 							{
 								"id": "14",
 								"choiceName": "Lisa Vezeau-Allen",
-								"votes": 1604,
-								"percentage": "32.37%",
+								"votes": 2090,
+								"percentage": "32.44%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -338,12 +338,12 @@
 			"33": {
 				"statistics": {
 					"eligibleVoters": 12197,
-					"turnout": "30.40%",
-					"turnout2": "30.40%",
-					"ballotCast": 3708,
-					"ballotCast2": 3708,
+					"turnout": "31.41%",
+					"turnout2": "31.41%",
+					"ballotCast": 3831,
+					"ballotCast2": 3831,
 					"tabulators": 13,
-					"closedTabulators": 9,
+					"closedTabulators": 10,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -352,7 +352,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 11,
-								"closedTabulators": 7
+								"closedTabulators": 8
 							},
 							{
 								"countingGroupId": "2",
@@ -375,15 +375,15 @@
 						"voteFor": 2,
 						"isAcclaimed": false,
 						"eligibleVoters": 12197,
-						"turnout": "30.40%",
-						"ballotCast": 3708,
+						"turnout": "31.41%",
+						"ballotCast": 3831,
 						"sort": 4,
 						"choiceResults": [
 							{
 								"id": "15",
 								"choiceName": "Angela Caputo",
-								"votes": 1755,
-								"percentage": "28.18%",
+								"votes": 1797,
+								"percentage": "28.07%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -393,8 +393,8 @@
 							{
 								"id": "16",
 								"choiceName": "Kurtis McDermid",
-								"votes": 1387,
-								"percentage": "22.27%",
+								"votes": 1420,
+								"percentage": "22.18%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -404,8 +404,8 @@
 							{
 								"id": "17",
 								"choiceName": "Luis Moreno",
-								"votes": 1481,
-								"percentage": "23.78%",
+								"votes": 1537,
+								"percentage": "24.01%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -415,8 +415,8 @@
 							{
 								"id": "18",
 								"choiceName": "Ron Zagordo",
-								"votes": 1604,
-								"percentage": "25.76%",
+								"votes": 1647,
+								"percentage": "25.73%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -435,7 +435,7 @@
 					"ballotCast": 2935,
 					"ballotCast2": 2935,
 					"tabulators": 18,
-					"closedTabulators": 13,
+					"closedTabulators": 14,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -444,7 +444,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 16,
-								"closedTabulators": 11
+								"closedTabulators": 12
 							},
 							{
 								"countingGroupId": "2",
@@ -522,12 +522,12 @@
 			"35": {
 				"statistics": {
 					"eligibleVoters": 8973,
-					"turnout": "26.15%",
-					"turnout2": "26.15%",
-					"ballotCast": 2346,
-					"ballotCast2": 2346,
+					"turnout": "37.30%",
+					"turnout2": "37.30%",
+					"ballotCast": 3347,
+					"ballotCast2": 3347,
 					"tabulators": 14,
-					"closedTabulators": 10,
+					"closedTabulators": 12,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -536,7 +536,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 12,
-								"closedTabulators": 8
+								"closedTabulators": 10
 							},
 							{
 								"countingGroupId": "2",
@@ -559,15 +559,15 @@
 						"voteFor": 2,
 						"isAcclaimed": false,
 						"eligibleVoters": 8973,
-						"turnout": "26.15%",
-						"ballotCast": 2346,
+						"turnout": "37.30%",
+						"ballotCast": 3347,
 						"sort": 6,
 						"choiceResults": [
 							{
 								"id": "23",
 								"choiceName": "Gideon Down",
-								"votes": 569,
-								"percentage": "14.91%",
+								"votes": 902,
+								"percentage": "16.82%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -577,8 +577,8 @@
 							{
 								"id": "24",
 								"choiceName": "Corey Gardi",
-								"votes": 1493,
-								"percentage": "39.11%",
+								"votes": 2036,
+								"percentage": "37.97%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -588,8 +588,8 @@
 							{
 								"id": "25",
 								"choiceName": "Martin Poirier",
-								"votes": 342,
-								"percentage": "8.96%",
+								"votes": 439,
+								"percentage": "8.19%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -599,7 +599,7 @@
 							{
 								"id": "26",
 								"choiceName": "Matthew Scott",
-								"votes": 1413,
+								"votes": 1985,
 								"percentage": "37.02%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
@@ -614,12 +614,12 @@
 			"41": {
 				"statistics": {
 					"eligibleVoters": 13738,
-					"turnout": "23.03%",
-					"turnout2": "23.03%",
-					"ballotCast": 3164,
-					"ballotCast2": 3164,
+					"turnout": "27.40%",
+					"turnout2": "27.40%",
+					"ballotCast": 3764,
+					"ballotCast2": 3764,
 					"tabulators": 13,
-					"closedTabulators": 7,
+					"closedTabulators": 8,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -628,7 +628,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 11,
-								"closedTabulators": 5
+								"closedTabulators": 6
 							},
 							{
 								"countingGroupId": "2",
@@ -651,15 +651,15 @@
 						"voteFor": 1,
 						"isAcclaimed": false,
 						"eligibleVoters": 10196,
-						"turnout": "21.96%",
-						"ballotCast": 2239,
+						"turnout": "26.27%",
+						"ballotCast": 2678,
 						"sort": 7,
 						"choiceResults": [
 							{
 								"id": "27",
 								"choiceName": "Norm Fera",
-								"votes": 528,
-								"percentage": "25.30%",
+								"votes": 621,
+								"percentage": "24.86%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -669,8 +669,8 @@
 							{
 								"id": "28",
 								"choiceName": "Jennifer Sarlo",
-								"votes": 1559,
-								"percentage": "74.70%",
+								"votes": 1877,
+								"percentage": "75.14%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -684,12 +684,12 @@
 			"45": {
 				"statistics": {
 					"eligibleVoters": 11677,
-					"turnout": "25.80%",
-					"turnout2": "25.80%",
-					"ballotCast": 3013,
-					"ballotCast2": 3013,
+					"turnout": "33.69%",
+					"turnout2": "33.69%",
+					"ballotCast": 3934,
+					"ballotCast2": 3934,
 					"tabulators": 14,
-					"closedTabulators": 10,
+					"closedTabulators": 12,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -698,7 +698,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 12,
-								"closedTabulators": 8
+								"closedTabulators": 10
 							},
 							{
 								"countingGroupId": "2",
@@ -721,15 +721,15 @@
 						"voteFor": 1,
 						"isAcclaimed": false,
 						"eligibleVoters": 9245,
-						"turnout": "25.54%",
-						"ballotCast": 2361,
+						"turnout": "32.77%",
+						"ballotCast": 3030,
 						"sort": 8,
 						"choiceResults": [
 							{
 								"id": "29",
 								"choiceName": "Michelle Murphy",
-								"votes": 852,
-								"percentage": "39.03%",
+								"votes": 1065,
+								"percentage": "37.86%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -739,8 +739,8 @@
 							{
 								"id": "30",
 								"choiceName": "Susan Myers",
-								"votes": 1331,
-								"percentage": "60.97%",
+								"votes": 1748,
+								"percentage": "62.14%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -754,12 +754,12 @@
 			"46": {
 				"statistics": {
 					"eligibleVoters": 12197,
-					"turnout": "30.40%",
-					"turnout2": "30.40%",
-					"ballotCast": 3708,
-					"ballotCast2": 3708,
+					"turnout": "31.41%",
+					"turnout2": "31.41%",
+					"ballotCast": 3831,
+					"ballotCast2": 3831,
 					"tabulators": 13,
-					"closedTabulators": 9,
+					"closedTabulators": 10,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -768,7 +768,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 11,
-								"closedTabulators": 7
+								"closedTabulators": 8
 							},
 							{
 								"countingGroupId": "2",
@@ -791,15 +791,15 @@
 						"voteFor": 1,
 						"isAcclaimed": false,
 						"eligibleVoters": 8802,
-						"turnout": "26.72%",
-						"ballotCast": 2352,
+						"turnout": "27.77%",
+						"ballotCast": 2444,
 						"sort": 9,
 						"choiceResults": [
 							{
 								"id": "31",
 								"choiceName": "Greg Bowman",
-								"votes": 1720,
-								"percentage": "81.83%",
+								"votes": 1771,
+								"percentage": "81.39%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -809,8 +809,8 @@
 							{
 								"id": "32",
 								"choiceName": "Frank Gaccione",
-								"votes": 382,
-								"percentage": "18.17%",
+								"votes": 405,
+								"percentage": "18.61%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -829,7 +829,7 @@
 					"ballotCast": 2935,
 					"ballotCast2": 2935,
 					"tabulators": 18,
-					"closedTabulators": 13,
+					"closedTabulators": 14,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -838,7 +838,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 16,
-								"closedTabulators": 11
+								"closedTabulators": 12
 							},
 							{
 								"countingGroupId": "2",
@@ -894,12 +894,12 @@
 			"48": {
 				"statistics": {
 					"eligibleVoters": 8973,
-					"turnout": "26.15%",
-					"turnout2": "26.15%",
-					"ballotCast": 2346,
-					"ballotCast2": 2346,
+					"turnout": "37.30%",
+					"turnout2": "37.30%",
+					"ballotCast": 3347,
+					"ballotCast2": 3347,
 					"tabulators": 14,
-					"closedTabulators": 10,
+					"closedTabulators": 12,
 					"startedPolls": 0,
 					"polls": 1,
 					"closedPolls": 0,
@@ -908,7 +908,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 12,
-								"closedTabulators": 8
+								"closedTabulators": 10
 							},
 							{
 								"countingGroupId": "2",
@@ -931,15 +931,15 @@
 						"voteFor": 1,
 						"isAcclaimed": false,
 						"eligibleVoters": 6243,
-						"turnout": "23.75%",
-						"ballotCast": 1483,
+						"turnout": "34.76%",
+						"ballotCast": 2170,
 						"sort": 11,
 						"choiceResults": [
 							{
 								"id": "35",
 								"choiceName": "Nick Apostle",
-								"votes": 744,
-								"percentage": "52.39%",
+								"votes": 1096,
+								"percentage": "53.31%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -949,8 +949,8 @@
 							{
 								"id": "36",
 								"choiceName": "Amanda Carpenter",
-								"votes": 676,
-								"percentage": "47.61%",
+								"votes": 960,
+								"percentage": "46.69%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -964,12 +964,12 @@
 			"42": {
 				"statistics": {
 					"eligibleVoters": 57659,
-					"turnout": "26.30%",
-					"turnout2": "26.30%",
-					"ballotCast": 15166,
-					"ballotCast2": 15166,
+					"turnout": "30.89%",
+					"turnout2": "30.89%",
+					"ballotCast": 17811,
+					"ballotCast2": 17811,
 					"tabulators": 45,
-					"closedTabulators": 31,
+					"closedTabulators": 37,
 					"startedPolls": 0,
 					"polls": 5,
 					"closedPolls": 0,
@@ -978,7 +978,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 43,
-								"closedTabulators": 29
+								"closedTabulators": 35
 							},
 							{
 								"countingGroupId": "2",
@@ -1001,15 +1001,15 @@
 						"voteFor": 6,
 						"isAcclaimed": false,
 						"eligibleVoters": 14327,
-						"turnout": "32.18%",
-						"ballotCast": 4611,
+						"turnout": "36.97%",
+						"ballotCast": 5296,
 						"sort": 12,
 						"choiceResults": [
 							{
 								"id": "37",
 								"choiceName": "Carol Amadio",
-								"votes": 2455,
-								"percentage": "14.54%",
+								"votes": 2811,
+								"percentage": "14.56%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1019,8 +1019,8 @@
 							{
 								"id": "38",
 								"choiceName": "John Bruno",
-								"votes": 2283,
-								"percentage": "13.52%",
+								"votes": 2619,
+								"percentage": "13.56%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1030,8 +1030,8 @@
 							{
 								"id": "39",
 								"choiceName": "John Caputo",
-								"votes": 2144,
-								"percentage": "12.69%",
+								"votes": 2447,
+								"percentage": "12.67%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1041,8 +1041,8 @@
 							{
 								"id": "40",
 								"choiceName": "Tony D'Agostino",
-								"votes": 1841,
-								"percentage": "10.90%",
+								"votes": 2098,
+								"percentage": "10.86%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1052,8 +1052,8 @@
 							{
 								"id": "41",
 								"choiceName": "Wayne Guy Greco",
-								"votes": 1814,
-								"percentage": "10.74%",
+								"votes": 2063,
+								"percentage": "10.68%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1063,8 +1063,8 @@
 							{
 								"id": "42",
 								"choiceName": "Annelise Iacoe",
-								"votes": 1697,
-								"percentage": "10.05%",
+								"votes": 1935,
+								"percentage": "10.02%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1074,8 +1074,8 @@
 							{
 								"id": "43",
 								"choiceName": "Gary Trembinski",
-								"votes": 2401,
-								"percentage": "14.22%",
+								"votes": 2756,
+								"percentage": "14.27%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1085,8 +1085,8 @@
 							{
 								"id": "44",
 								"choiceName": "Sandra P. Turco",
-								"votes": 2254,
-								"percentage": "13.35%",
+								"votes": 2582,
+								"percentage": "13.37%",
 								"isIncumbent": 0,
 								"isDisabled": 0,
 								"gender": "Unknown",
@@ -1100,12 +1100,12 @@
 			"43": {
 				"statistics": {
 					"eligibleVoters": 57659,
-					"turnout": "26.30%",
-					"turnout2": "26.30%",
-					"ballotCast": 15166,
-					"ballotCast2": 15166,
+					"turnout": "30.89%",
+					"turnout2": "30.89%",
+					"ballotCast": 17811,
+					"ballotCast2": 17811,
 					"tabulators": 45,
-					"closedTabulators": 31,
+					"closedTabulators": 37,
 					"startedPolls": 0,
 					"polls": 5,
 					"closedPolls": 0,
@@ -1114,7 +1114,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 43,
-								"closedTabulators": 29
+								"closedTabulators": 35
 							},
 							{
 								"countingGroupId": "2",
@@ -1159,12 +1159,12 @@
 			"44": {
 				"statistics": {
 					"eligibleVoters": 57659,
-					"turnout": "26.30%",
-					"turnout2": "26.30%",
-					"ballotCast": 15166,
-					"ballotCast2": 15166,
+					"turnout": "30.89%",
+					"turnout2": "30.89%",
+					"ballotCast": 17811,
+					"ballotCast2": 17811,
 					"tabulators": 45,
-					"closedTabulators": 31,
+					"closedTabulators": 37,
 					"startedPolls": 0,
 					"polls": 5,
 					"closedPolls": 0,
@@ -1173,7 +1173,7 @@
 								"countingGroupId": "1",
 								"countingGroupName": "Election Day",
 								"tabulators": 43,
-								"closedTabulators": 29
+								"closedTabulators": 35
 							},
 							{
 								"countingGroupId": "2",
